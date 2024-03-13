@@ -30,8 +30,8 @@ middlewareconfig = ()=>{
 
 
 middlewareconfig();
-movie.sync();
-director.sync();
+movie.sync({force:true});
+director.sync({force:true});
 
 application.get('/',(req,res)=>{
     res.send("hello");

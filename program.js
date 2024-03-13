@@ -28,9 +28,14 @@ middlewareconfig = ()=>{
 }
 
 
+
 middlewareconfig();
 movie.sync();
 director.sync();
+
+application.get('/',(req,res)=>{
+    res.send("hello");
+})
 
 application.listen(3000, () => {
     console.log("3000 portu dinlemede");

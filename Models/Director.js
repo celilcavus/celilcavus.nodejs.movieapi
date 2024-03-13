@@ -15,8 +15,7 @@ const director = model.define('director',{
     isActive:{
         type:DataTypes.BOOLEAN,
         defaultValue:false
-    },
-    image:DataTypes
+    }
 });
 
 

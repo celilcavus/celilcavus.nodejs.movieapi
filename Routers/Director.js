@@ -10,5 +10,4 @@ route.delete('/api/director/:id',controller.delete);
 route.put('/api/director/:id',controller.put);
 
 
-
 module.exports = route;
